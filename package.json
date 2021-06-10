@@ -1,0 +1,16 @@
+{
+	"name": "husky6-debug",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"husky": "^6.0.0",
+		"lint-staged": "^11.0.0",
+		"prettier": "^2.3.1"
+	},
+	"lint-staged": {
+		"*.js": "prettier --write"
+	}
+}
